@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+/* font-family: 'Libre Franklin', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.search{
+    position:absolute;
+    top: 90px;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+html{
+    font-family: 'Courgette', cursive;
+    /* font-size: 12px; */
+}
+section{
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px 0;
+    /* background: linear-gradient(to left bottom,rgb(127, 167, 252),rgb(177, 224, 247),rgb(245, 181, 245),rgb(211, 144, 224),rgb(127, 167, 252)); */
+    /* background-color: rgb(223, 225, 233); */
+    background: linear-gradient(rgba(221, 28, 28, 0.5),rgba(65, 65, 65, 0.5)),url('../Image/Chinies.jpg');
+    background-repeat: no-repeat;
+    background-position:center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container{
+    width: 90%;
+    height: auto;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.brand{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 5vw;
+    color: rgb(245, 245, 245);
+    margin-bottom: 30px;
+}
+.brand1{
+    text-align: center;
+    font-family: 'Courgette', cursive;
+    font-size: 2vw;
+    color: rgb(177, 177, 177);
+    margin-bottom: 30px;
+}
+form{
+    width: 100%;
+    max-width: 800px;
+    margin: 10px auto;
+    border-radius: 4px;
+    position: absolute;
+    left: 25%;
+    top: 150px;
+    /* background-color: green; */
+}
+form input{
+    width: 50%;
+    /* height: 2xw;  */
+    background-color: rgb(236, 236, 236);
+    box-shadow: 0 10px 10px 0 rgb(148, 148, 148);
+    padding: 9px;
+    font-size: 1.5em;
+    border: none;
+    outline: none;
+    display: inline-block;
+}
+.btn2{
+    background: linear-gradient(to left bottom, rgb(255, 24, 132),rgb(255, 89, 24),red);
+    border-radius: 40px;
+    width: 19%;
+    /* height: 3vw; */
+    padding: 15px;
+    font-size: 1vw;
+    font-weight: bold;
+    color: white;
+    margin: 15px;
+    border: none;
+    outline: none;
+ }
+ .btn2:hover{
+    box-shadow: 0 10px 10px 0 rgb(253, 83, 40);
+ }
+form ion-icon{
+    width: 9%;
+    font-size: 3rem;
+    margin: -8px;
+    color: gray;
+}
+.Search-Result{
+    margin-top: 10px;
+    width: 100%;
+    display: grid;
+    grid-gap: 45px;
+    grid-template: auto / repeat( auto-fit , minmax(300px,1fr));
+   
+}
+
+.btn1{
+    width: 60%;
+    height: 50px;
+    font-size: 1.4rem;
+    background-color: rgba(51, 51, 51, 0.6);
+    color: whitesmoke;
+
+}
+.Item{
+    width: 100%;
+    height: 550px;
+    /* border-radius: 8px; */
+    box-shadow: 0 10px 10px 0 rgb(75, 75, 75);
+    background-color: rgb(231, 231, 231);
+    padding: 15px;
+    overflow: hidden;
+}
+.step{
+    width: 320px;
+    padding: 10px;
+    height: 80px;
+    overflow-y: scroll;
+    position: relative;
+    scroll-behavior: smooth;
+    box-shadow: 0 10px 10px 0 rgb(148, 148, 148);
+    background-color: rgb(233, 215, 233);
+}
+.Item img{
+    width: 100%;
+    height: 250px;
+    border-radius: 4px;
+}
+p{
+    text-shadow: 0 10px 10px 0 rgb(51, 51, 51);
+}
+.Item .flex-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+.Item .Title{
+   color: black;
+   text-shadow: 0 10px 10px 0 rgb(51, 51, 51);
+   margin: 20px 10px 0 0;
+   font-size: 1.8rem;
+   font-weight: 400;
+}
+.view-Button{
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    padding: 10px 0;
+    border-radius: 2px;
+    background-color: rgba(51, 51, 51, 0.6);
+    color: whitesmoke;
+    font-size: 1.4rem;
+    margin-top: 20px;
+    align-self: flex-start;
+}
+.view-Button:hover{
+    color: whitesmoke;
+    box-shadow: 0 10px 10px 0 rgb(51, 51, 51)
+}
+#item-data{
+  color:black;
+  display: block;
+  margin-top: 10px;
+  font-size: 1.4rem;
+  letter-spacing: .05rem;
+  line-height: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

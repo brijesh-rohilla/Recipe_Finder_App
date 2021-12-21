@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Recipe_Finder_App/static/css/main.4e036329.chunk.css",
+    "main.js": "/Recipe_Finder_App/static/js/main.c93c2857.chunk.js",
+    "main.js.map": "/Recipe_Finder_App/static/js/main.c93c2857.chunk.js.map",
+    "runtime-main.js": "/Recipe_Finder_App/static/js/runtime-main.98f09a6f.js",
+    "runtime-main.js.map": "/Recipe_Finder_App/static/js/runtime-main.98f09a6f.js.map",
+    "static/js/2.a9570009.chunk.js": "/Recipe_Finder_App/static/js/2.a9570009.chunk.js",
+    "static/js/2.a9570009.chunk.js.map": "/Recipe_Finder_App/static/js/2.a9570009.chunk.js.map",
+    "static/js/3.92661bed.chunk.js": "/Recipe_Finder_App/static/js/3.92661bed.chunk.js",
+    "static/js/3.92661bed.chunk.js.map": "/Recipe_Finder_App/static/js/3.92661bed.chunk.js.map",
+    "index.html": "/Recipe_Finder_App/index.html",
+    "static/css/main.4e036329.chunk.css.map": "/Recipe_Finder_App/static/css/main.4e036329.chunk.css.map",
+    "static/js/2.a9570009.chunk.js.LICENSE.txt": "/Recipe_Finder_App/static/js/2.a9570009.chunk.js.LICENSE.txt",
+    "static/media/Header.css": "/Recipe_Finder_App/static/media/Chinies.bb5cd6f0.jpg",
+    "static/media/Home.css": "/Recipe_Finder_App/static/media/back4.e6585d57.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.98f09a6f.js",
+    "static/js/2.a9570009.chunk.js",
+    "static/css/main.4e036329.chunk.css",
+    "static/js/main.c93c2857.chunk.js"
+  ]
+}
